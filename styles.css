@@ -9,11 +9,12 @@ body {
 .first-left {
     margin-right: 24px;
     width: 600px;
+    flex: 1 1 auto;
 }
 
 img {
-    max-width: 400px;
-    flex-shrink: 1;
+    max-width: 500px;
+    flex: 1 1 auto;
 }
 
 ul {
@@ -55,21 +56,17 @@ p {
     color: white;
     align-items: center;
     justify-content: space-between;
-    width: 900px;
+    width: 1000px;
+    
 }
-
 .first-section {
     padding: 88px 0px;
 }
-
-
-
 .logo {
     font-size: 24px;
     font-weight: 900;
     color: #f9faf8;
 }
-
 button {
     background-color: #3882f6;
     color: #f9faf8;
@@ -86,19 +83,18 @@ button {
     display: flex;
     justify-content: center;
 }
-
 .second-section {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 900px;
+    width: 1000px;
+    padding-bottom: 100px;
 }
 .second-section a{
     text-decoration: none;
     color: gray;
     font-size: 18px;
 }
-
 .second-section p {
     text-align: center;
     font-size: 36px;
@@ -106,15 +102,12 @@ button {
     color: #1F2937;
     padding: 42px;
 }
-
 .card-wrapper {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    margin: ;
-
+    gap: 48px;
 }
-
 .card {
     display: flex;
     flex-direction: column;
@@ -123,17 +116,33 @@ button {
     align-items: center;    
 }
 .card img {
-    max-height: 150px;
+    max-height: 200px;
 }
 .trim {
     display: flex;
     justify-content: center;
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 200px;
+    max-height: 200px;
     overflow: hidden;
     padding: 0;
     margin: 0;
     border: 4px solid #3882f6;
-    border-radius: 12px;
-    
+    border-radius: 16px;
 }
+
+.third-back {
+    background-color: #E5E7EB;
+}
+.third-section {
+    width: 1000px;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    width: 1000px;
+    padding-top: 100px;
+
+}
+
