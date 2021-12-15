@@ -51,14 +51,14 @@ p {
     margin: 0 0 16px 0;
 }
 
-.header-back, .first-back {
+.header-back, .first-back, .footer-back {
     background-color: #1F2937;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
 }
-.header, .first-section {
+.header, .first-section, .footer {
     background-color: #1F2937;
     display: flex;
     color: white;
@@ -193,4 +193,20 @@ p {
 }
 .fourth-section p, h3 {
     margin: 0;
+}
+.footer {
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.footer p{
+    padding: 0;
+    margin: 0;
+}
+.footer-back {
+    background-color: #1F2937;
+    margin: auto 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
