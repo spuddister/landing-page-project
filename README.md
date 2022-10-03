@@ -1,6 +1,13 @@
-# landing-page-project
-Landing page using the Flexbox layout and its accompanying flex tools along wiht all skills I have learned in CSS so far: classes, IDs, colors, padding, margin, fonts etc.
+# Landing Page Project
+
+This is my second project from my work throughout The Odin Project curriculum.
+
+It is a simple landing page to showcase my new skills with flex and CSS.
 Theme: interesting plants
+
+[See deployment here.](https://spuddister.github.io/landing-page-project/)
+
+# Image Credit
 
 Mountians with trees: Photo by André Cook from Pexels - https://www.pexels.com/@andrejcook?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels
 
