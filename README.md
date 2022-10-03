@@ -7,7 +7,7 @@ Theme: interesting plants
 
 [See deployment here.](https://spuddister.github.io/landing-page-project/)
 
-# Image Credit
+## Image Credit
 
 Mountians with trees: Photo by André Cook from Pexels - https://www.pexels.com/@andrejcook?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels
 
